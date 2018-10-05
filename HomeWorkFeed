@@ -1,3 +1,122 @@
+Házi feladat 10 05
+Téma I. : Ciklusok
+a) Hozzon létre egy függvényt (neve negativPiramis legyen), mely egy egész számot kap paraméterként, 
+és annak megfelelően a következőt írja ki:
+Paraméter: 3  Paraméter: 5
+LLL           LLLLL
+LL            LLLL
+L             LLL
+              LL
+              L
+              
+b) Hozzon létre egy függvényt (neve pozitivPiramis legyen), mely egy egész számot kap paraméterként, 
+és annak megfelelően a következőt írja ki:
+Paraméter: 3  Paraméter: 5
+L             L
+LL            LL
+LLL           LLL
+              LLLL
+              LLLLL
+              
+c) Hozzon létre egy függvényt, mely az előzőeket egyesíti a következő képpen:
+
+Paraméterek: (2,5)
+L
+LL            
+LLL
+LLLL
+LLLLL
+LLLLL
+LLLL
+LLL
+LL
+L
+L
+LL            
+LLL
+LLLL
+LLLLL
+LLLLL
+LLLL
+LLL
+LL
+L
+
+Paraméterek: (3,2)
+L
+LL
+LL
+L
+L
+LL
+LL
+L
+L
+LL
+LL
+L
+
+Paraméterek: (5,3)
+L
+LL
+LLL
+LLL
+LL
+L
+L
+LL
+LLL
+LLL
+LL
+L
+L
+LL
+LLL
+LLL
+LL
+L
+L
+LL
+LLL
+LLL
+LL
+L
+L
+LL
+LLL
+LLL
+LL
+L
+
+
+Téma II. : Pointerek
+
+a) Hozzon létre 4 db egész számokat tárolni képes változót, melyekből az első kettőnek adjon megfelelő értéket is.
+Elnevezések a következők legyenek: elsoSzam, masodikSzam, ...
+Írassa ki mind a 4-nek az értékét és címét (megfelelő szöveggel, szóközökkel, sortörésekkel)
+Törekedjen átlátható kódra.
+
+b) Hozzon létre egy függvényt (visszatérési értéke IGAZ/HAMIS), mely paraméterlistán vár egy megváltoztatandó számot.
+A számot cserélje le a szám duplájára.
+Hívja meg ezt a függvényt a main()-ben egy megfelelő változóval (melynek van már értéke!).
+Írassuk ki ismét a main()-ben mind a 4 változó értékét és címeit.
+
+c) Hozzon létre egy függvényt, mely visszatér a paraméterként kapott szám négyzetével.
+Hívjuk meg ezt a függvényt a main()-ben úgy, hogy az értékét a harmadikSzam-ba tároljuk el.
+Írassuk ki ismét a main()-ben mind a 4 változó értékét és címeit.
+
+d) Hozzon létre egy globális tömböt, egy megfelelő define paranccsal adjon neki méretet.
+A main()-ben egy ciklussal írja ki a tömb elemeinek a címeit és a tárolt értékekeket.
+A kiírt szöveg legyen egyértelmű és átlátható!!
+Majd töltse fel a tömböt az indexeinek megfelelő számokkal (tahát pl a 4. helyen a hármas szám álljon,
+az 5. helyen a négyes, stb...) és írassuk ki újra a címeket és az értékeket.
+
+e)
+Készítsen a II. téma kódjaihoz dokumentációt.
+Mit írtunk ki? Miért? Mit látunk? Miért ezt látjuk? Mi mit lát? Mi mit ér el? Miért nem éri el/Miért éri el? stb...
+
+--------------//--------------
+
 Házi feladat 09 24
 Téma: fix méretű tömbök
 Hozzon létre egy globális, egész számokat tároló tömböt, majd definiáljon egy fix méretet neki a tanult módon.
