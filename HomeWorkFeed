@@ -1,3 +1,26 @@
+
+Házi feladat 10 10
+Megjegyzés: Remélem mindenkinek elég időt hagytam, hogy pótolhassa az előző házi feladatot, 
+vagy kiegészítse azt az elvárt módon. Kérem aki ezt nem tette meg, ma éjfélig mindenképp töltse fel a teljes megoldást.
+
+Téma: Tömbök bejárása pointerekkel
+Jelenleg a feladatunk ott tart, hogy létezik egy globális tömbünk, aminek a #define segítségével adtuk meg a méretét.
+A következő függvényekkel tessék kiegészíteni:
+a) Minden elemet lecserél az eredeti elem tízszeresére. (Pointerrel)
+  Ez a fgv. ne rendelkezzen visszatérési értékkel.
+  A fgv. ciklusán belül szerepeljenek a következő kiíratások:
+    - Mi volt az eredeti érték
+    - Mi volt az eredeti érték címe
+    - Mi az új érték
+    - Mi az új érték címe
+b) Visszaadja egy kért elem címét 
+    (paraméterként az elem indexét kapjuk meg, továbbá egy "helyet", ahova tehetjük a címet)
+  Ez a fgv. igazzal térjen vissza, ha megfelelő indexet kapott és hamissal, 
+  amennyiben a használt tömbben nem létezik a kért index.
+  Gondolkozzunk el, hogy mivel lehet címet tárolni, avagy mi az, ami konkrétan egy címet tárol.
+
+--------------//--------------
+
 Házi feladat 10 05
 Téma I. : Ciklusok
 a) Hozzon létre egy függvényt (neve negativPiramis legyen), mely egy egész számot kap paraméterként, 
