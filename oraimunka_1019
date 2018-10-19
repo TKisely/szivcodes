@@ -29,14 +29,14 @@ bool beteszHelyre(int hova, int mit){
 bool szamotCserel(int elsoIndexe, int masodikIndexe){
     if(elsoIndexe<TOMBMERET&&elsoIndexe>=0&&
        masodikIndexe<TOMBMERET&&masodikIndexe>=0){
-           
+
         int ideiglenes = szamTomb[elsoIndexe];
         szamTomb[elsoIndexe] = szamTomb[masodikIndexe];
         szamTomb[masodikIndexe] = ideiglenes;
         return true;
-        
+
        }
-       
+
        return false;
 }
 
@@ -63,10 +63,38 @@ void azAlmaJo(){
     karakterek[9]='o';
 }
 
+bool karakterIndexre(int hova, char mit){
+    if(hova>=0&&hova<TOMBMERET){
+        karakterek[hova]=mit;
+        return true;
+    }
+    return false;
+}
+
+void kiIrSzoveges(){
+    for(int i=0;i<TOMBMERET;i++){
+        cout<<i<<". karakterem = "<<karakterek[i]<<endl;
+    }
+}
+
+void konzolrolFeltolt(){
+    for(int i=0;i<TOMBMERET;i++){
+
+        cout<<"Kerem adja meg a(z) "<<i+1<<". elemet"<<endl;
+        cin>>szamTomb[i];
+    }
+}
+
+
+
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    konzolrolFeltolt();
+    kiIr();
+
+
+    cout << "Lefutottam!" << endl;
     return 0;
 }
 
