@@ -1,3 +1,29 @@
+Házi feladat 10 19
+Téma: cin alkalmazása és tömbök
+1:
+Készítsen egy függvényt, mely a konzolról vár egy számot és kiírja a szám négyzetét
+2:
+Készítsen egy függvényt, mely a konzolról vár egy számot és kiírja a szám faktoriálisát
+3:
+Készítsen egy függvényt, mely a konzolról vár két számot és kiírja a két szám összegét
+4:
+Készítsen egy függvényt, mely paraméterként vár egy számot, ez legyen mondjuk x, majd kiírja az első x db páratlan
+pozitív számot
+5:
+Készítsen egy függvényt, mely a konzolról vár egy számot, majd kiírja, hogy paros, ha páros, és paratlan, ha páratlan
+a kapott szám
+6: (gondolkodósabb)
+Készítsen egy függvényt, mely addig olvas be számokat, amíg a kapott szám nem nulla
+7: (még gondolkodósabb, tessék próbálkozni, NEM adjuk fel!)
+Készítsen egy programot, mely addig vár számokat, míg a kapott szám nagyobb mint nulla, és mindig kiadja az addig kapott
+legnagyobb számot.
+Ha még nem kapott számot, akkor 0-t írjon ki.
+
+Határidő: Szerda dél. Az első 5 mindenkinek Önállóan kötelező!
+Szerda délben kerül fel a következő házi feladat.
+
+--------------//--------------
+
 Hazi feladat 10 16
 Mint mondottam vala a kovetkezo alkalommal DOLGOZATra tessek szamitani!!
 Hf.:
@@ -6,6 +32,7 @@ https://infoc.eet.bme.hu/qsort/
 Tovabba az elozo hazik potlasa akit erint!
 
 --------------//--------------
+
 Házi feladat 10 10
 Megjegyzés: Remélem mindenkinek elég időt hagytam, hogy pótolhassa az előző házi feladatot, 
 vagy kiegészítse azt az elvárt módon. Kérem aki ezt nem tette meg, ma éjfélig mindenképp töltse fel a teljes megoldást.
