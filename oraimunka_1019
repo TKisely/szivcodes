@@ -40,9 +40,33 @@ bool szamotCserel(int elsoIndexe, int masodikIndexe){
        return false;
 }
 
+void kiIr(){
+    for(int i=0;i<TOMBMERET;i++){
+        cout<<"A tomb "<<i<<". eleme = "<<szamTomb[i]<<endl;
+    }
+}
+
+void utolsoElemBeallit(char karakter){
+    karakterek[9]=karakter;
+}
+
+void azAlmaJo(){
+    karakterek[0]='A';
+    karakterek[1]='z';
+    karakterek[2]=' ';
+    karakterek[3]='a';
+    karakterek[4]='l';
+    karakterek[5]='m';
+    karakterek[6]='a';
+    karakterek[7]=' ';
+    karakterek[8]='j';
+    karakterek[9]='o';
+}
+
 
 int main()
 {
     cout << "Hello world!" << endl;
     return 0;
 }
+
