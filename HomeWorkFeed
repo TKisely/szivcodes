@@ -1,3 +1,34 @@
+Házi feladat 10 24
+Téma: rendezések
+Készítsünk egy tesztelő programot, mely bemutatja a Buborék rendezés folyamatát.
+Bubble sort az angol neve, végtelen magyar és angol leírás található hozzá, továbbá mi is néztünk már róla videót.
+A kód is természetesen elérhető, mindent tanultunk már hozzá. 
+(pointereket tudunk állítani, ideiglenes változót használtunk már, ha cseréről volt szó)
+Elvárások:
+  Változók/tömbök:
+    Egyetlen egy egész számokat tartalmazó tömböt kötelező létrehozni, minden más saját döntés alapján
+  Függvények:
+    Csere függvény - képes legyen két elemet felcserélni a tömbünkben
+    Buborék rendezés függvénye (növekvő v. csökkenő saját döntés)
+    Tömb kiírása fgv. (minden elemet szépen a megszokott módon: Helye és értéke)
+  Logika:
+    Magát a tömböt rendezzük, ne egy új tömbbe kerüljenek be a számok sorban
+    A rendező NE kapjon paraméterként tömböt, az általunk létrehozott tömbön dolgozzon
+    
+  Egyéb:
+    Kérem a rendezés maga is legyen megfelelően ellátva kiírásokkal, hogy maga a folyamat is látszódjon.
+    Tehát:
+      Írja ki minden cserénél, hogy pontosan melyik két elem lett cserélve.
+      Írja ki minden egyes alkalommal, amikor a tömb végére ér, hogy mi az aktuális állás (teljes tömb)
+      Írja ki a legvégső állapotot
+      Írja ki a kezdeti állapotot
+      
+    Kérem a kód rendelkezzen kommentekkel, amit a // jellel lehet beszúrni, írjuk oda, hogy melyik fgv. mit csinál.
+    
+    Határidő vasárnap dél.
+
+--------------//--------------
+
 Házi feladat 10 19
 Téma: cin alkalmazása és tömbök
 1:
