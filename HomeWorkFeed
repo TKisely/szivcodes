@@ -1,3 +1,17 @@
+Házi feladat 11 26
+Projekt feladat:
+
+  Választható témák:
+    -Pénztár (termék neve, ára, vonalkód)
+    -Bankkártya tranzakció (dátum, hely, összeg)
+    -Teendő lista (dátum, időtartam, fontossák)
+    
+    Függvények: Minimum számítás, maximum számítás, átlagolás
+    
+    
+
+--------------//--------------
+
 Házi feladat 10 24
 Téma: rendezések
 Készítsünk egy tesztelő programot, mely bemutatja a Buborék rendezés folyamatát.
