@@ -4,7 +4,8 @@ Projekt feladat:
   Választható témák:
     -Pénztár (termék neve, ára, vonalkód)
     -Bankkártya tranzakció (dátum, hely, összeg)
-    -Teendő lista (dátum, időtartam, fontossák)
+    -Teendő lista (dátum, időtartam, fontosság)
+    -Bevásárló lista(termék neve, darabszám, ár)
     
     Függvények: Minimum számítás, maximum számítás, átlagolás
     
