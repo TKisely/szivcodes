@@ -1,3 +1,51 @@
+Házi feladat 12 10
+Téma: vector
+
+Hozzunk lére egy termék osztályt.
+Minden terméknek legyen: 
+- cikkszáma (4 jegyű egész szám - tessék megpróbálni ezt ellenőrizni a megfelelő helyen)
+- neve
+- ára (Ft - kiírásnál fontos csak)
+- súlya (kg - kiírásnál fontos csak)
+- megfelelő konstruktora(i)
+- megfelelő gettere(i)
+
+Hozzunk létre egy webshop osztályt.
+Minden webshopnak legyen:
+- raktáron lévő termékeket tároló vectora
+- eladott termékeket tároló vectora
+- neve
+- címe
+- megfelelő konstruktora(i)
+- megfelelő gettere(i)
+
+További függvények és elvárások:
+A webshop gondoskodjon arról, hogy a két vector megfelelő termékeket tartalmazzon, tehát ha pl. eladunk valamit,
+akkor az már ne legyen raktáron, viszont jelenjen meg mint eladott termék.
+A webshop tudja számítani, hogy mekkora volt a bevétele.
+A webshop meg tudja mondani, hogy melyik volt a legdrágább és legolcsóbb eladott terméke.
+A webshop meg tudja mondani, hogy hány terméket adott el.
+Tessék kihasználni a vector beépített függvényeit:
+
+push_back() - hátulra betölt
+erase() - elemet töröl
+swap() - cserél
+size() - megmondja a méretét
+.
+.
+.
+Javasolt weboldal: https://www.geeksforgeeks.org/vector-in-cpp-stl/
+
+A main függvényben tessék írni egy példakódot, ami bemutatja, hogy minden függvény megfelelően működik.
+
+A házi bemutatása kötelező, osztályzatot fognak rá kapni!
+Amennyiben szeretnék plusz értelmes funkciókkal kipótolni plusz pontot tudok rá adni.
+
+EXTRA (nem kell most alkalmazni, de következő órára tessék ismerni)
+Konzolról való sorbeolvasás fel fog kerülni a kódok közé Sorbeolvasas.cpp néven, tessék vele ismerkedni.
+
+--------------//--------------
+
 Házi feladat 11 26
 Projekt feladat:
 
