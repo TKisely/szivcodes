@@ -1,0 +1,9 @@
+1/ Kommentelések segítségével
+írja be a kód felső részére a 
+követlező feladatokat:
+2/ Kommentelések segítségével írja le, 
+hogy milyen lépések szükségesek
+a fájlból való kiolvasáshoz CPP nyelven
+3/ Valósítsa meg a kódot a következő specifikációval:
+	fájl: hallgatok.txt
+	kinézet: nev'\t'atlag
