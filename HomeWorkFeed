@@ -1,3 +1,29 @@
+Házi feladat 3 4
+
+Dolgozza fel a  fajlom.txt  állományt, melynek a felépítése a következő:
+FUTÓ NEVE tab ELSŐNAPKM tab MÁSODIKNAPKM tab HARMADIKNAPKM
+FUTÓ NEVE tab ELSŐNAPKM tab MÁSODIKNAPKM tab HARMADIKNAPKM
+...
+A km tizedesvessző használatával van tárolva, így konvertálni kell.
+
+Megfelelő osztály és adattároló segítségével tárolja el az értékeket későbbi feldolgozásra.
+
+További feladatok:
+-Adott futó legjobb napja (írja ki, hogy hanyadik nap volt a legjobb és hány km-t futott)
+-Adott futó legrosszabb napja (írja ki, hogy hanyadik nap volt a legrosszabb és hány km-t futott)
+
+-A 3 nap alatt legkevesebbet futott futó (név és összKM)
+-A 3 nap alatt legtöbbet futott futó (név és összKM)
+
+-Adott nap átlaga (összes futóra nézve átlagoljunk, mind a 3 nap kell külön-külön)
+-Teljes átlagolás, tehát minden futó minden napját külön értéknek vesszük és ezeket az értékeket átlagoljuk.
+
+A beadott munka osztályzásra (TZ) kerül:
+Kettes szint a további feladatok előtti rész tökéletes lefutása
+
+
+--------------//--------------
+
 Házi feladat 2 13
 
 Felkerült az eddigi feldolgozás bontott formában (függvényekre bontva magyarán) annak érdekében, hogy külön
