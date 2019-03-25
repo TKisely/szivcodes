@@ -1,0 +1,7 @@
+Mire szolgál a subnet mask? Mit tud elmondani a felépítéséről? 4 pont
+Melyik network class-ra igaz, hogy a Network és Host részének mérete megegyezik? Mekkorák ezek a részek és mi célt szolgálnak? 4 pont
+Váltsa át a 11000100. 10101100. 00010100. 00001100 IP címet a megfelelő formára. Mi a hálózat címe és mi a host cím? Honnan tudja? Milyen alhálózati maszkot kell megadni ezesetben. 6 pont
+Írja le decimális formában a következő IP címekhez tartozó alhálózati maszkokat: 6 pont
+64.255.127.10				120.0.0.1			192.178.250.168
+168.168.168.168			200.0.0.0			168.192.0.1
+Az előbbi címekhez sorolja fel egy táblázatban, hogy az adott cím milyen részekből épül fel és ez alapján osztályozza őket. 12 pont
