@@ -1,0 +1,68 @@
+Class A:
+32 db 0 -> "0" utána 31 db 1-es
+Ebből első 8 bit a hálózat és a második 24 bit pedig a host rész
+	00000000.00000000.00000000.00000000	kezdeti
+	01111111.11111111.11111111.11111111	végső
+	0.0.0.0 -> 127.255.255.255
+Class B:
+"10" és utána 30 db nulla -> "10" és utána 30 db egyes
+	10000000.00000000.00000000.00000000	kezdeti
+	10111111.11111111.11111111.11111111	végső  
+	128.0.0.0 -> 191.255.255.255
+Class C:
+"110" és utána 29 db nulla -> "110" és utána 29 db egyes
+	11000000.00000000.00000000.00000000	kezdeti
+	11011111.11111111.11111111.11111111	végső
+	192.0.0.0 -> 223.255.255.255
+
+Subnet mask : Alhálózati maszkolás
+Egyest írunk a NETWORK részhez, és 0-kat a HOST részhez.
+8 db számjegy . 8 db számjegy . 8 db számjegy . 8 db számjegy
+8bit . 8bit . 8bit . 8bit
+Class A esetén:
+8 bit a NETWORK és 24 bit a HOST rész
+	Subnet mask:
+	111111111.00000000.00000000.00000000
+	255.0.0.0
+Class B esetén:
+16 bit NETWORK és 16 bit HOST
+	Subnet mask:
+	11111111.11111111.00000000.00000000
+	255.255.0.0
+Class c esetén:
+24 bit NETWORK és 8 bit HOST
+	Subnet mask:
+	11111111.11111111.11111111.00000000
+	255.255.255.0
+
+Class A:
+32 db 0 -> "0" utána 31 db 1-es
+Ebből első 8 bit a hálózat és a második 24 bit pedig a host rész
+	00000000.00000000.00000000.00000000	kezdeti
+	01111111.11111111.11111111.11111111	végső
+	0.0.0.0 -> 127.255.255.255
+	128 db hálózat
+	256*256*256 db eszköz = 16 777 216 db minden egyes hálózaton
+Class B:
+"10" és utána 30 db nulla -> "10" és utána 30 db egyes
+	10000000.00000000.00000000.00000000	kezdeti
+	10111111.11111111.11111111.11111111	végső  
+	128.0.0.0 -> 191.255.255.255
+	NETWORK: 128.0 -> 191.255
+		64*256 = 16 384 hálózat
+	HOST: 0.0 -> 255.255
+		256*256 = 65 536 eszköz minden hálózaton
+Class C:
+"110" és utána 29 db nulla -> "110" és utána 29 db egyes
+	11000000.00000000.00000000.00000000	kezdeti
+	11011111.11111111.11111111.11111111	végső
+	192.0.0.0 -> 223.255.255.255
+	NETWORK: 192.0.0 -> 223.255.255
+		32*256*256 = 2 097 152 db hálózat
+	HOST: 0 -> 255
+		256 eszköz minden hálózaton
+Összesen Class A, Class B és Class C IP címeken hány HOST fér el?
+	Class A : 128 * 16 777 216 = 2 147 483 648
+	Class B : 16 384 * 65 536 = 1 073 741 824
+	Class C : 2 097 152 * 256 = 536 870 912
+		Összesen : 3 758 096 384 db HOST és 2 113 664 db NETWORK
